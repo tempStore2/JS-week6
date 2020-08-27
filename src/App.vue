@@ -2,8 +2,13 @@
   <div id="app">
     <loading :active.sync="isLoading"></loading>
     <div id="nav">
-      <router-link to="/">Home</router-link>|
-      <router-link to="/about">About</router-link>
+      <router-link to="/">首頁</router-link> |
+        <router-link to="/products">產品列表</router-link> |
+        <router-link to="/cart">購物車</router-link> |
+        <router-link to="/about">關於我們</router-link> |
+        <router-link to="/checkout">結帳</router-link> |
+        <router-link to="/checkouted">結帳完成</router-link> |
+        <router-link to="/contact">聯絡我們</router-link>
     </div>
     <router-view />
   </div>
